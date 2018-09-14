@@ -3,6 +3,7 @@
 import Vue from 'vue'
 import App from './App'
 import router from './router'
+import 'loaders.css'
 
 Vue.config.productionTip = false // 生产环境提示
 

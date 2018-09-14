@@ -1,6 +1,25 @@
 <template>
   <div class="start">
-      <!-- <span><router-link to="/start/jsLearn" class="sp-link">js</router-link></span>
+  <div class="loader-inner ball-pulse">
+    <div></div>
+    <div></div>
+    <div></div>
+  </div>
+
+  <div class="loader-inner ball-grid-pulse">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+  </div>
+
+  <hr>
+     <!-- <span><router-link to="/start/jsLearn" class="sp-link">js</router-link></span>
       <span> || </span>
       <span><router-link to="/start/htmlLearn" class="sp-link">html和css</router-link></span> -->
 
@@ -48,4 +67,7 @@ export default {
 }
 </script>
 <style scoped>
+.start {
+  background-color: #008c96;
+}
 </style>
