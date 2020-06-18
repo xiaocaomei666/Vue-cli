@@ -13,11 +13,6 @@ export default {
       default: '我是默认的'
     }
   },
-  data () {
-    return {
-      msg: 'Welcome to a'
-    }
-  },
   watch: {
     changeName (newV, oldV) {
       console.log(newV, oldV)
